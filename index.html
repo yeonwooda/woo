@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>woo</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/skil.css" />
+    <link rel="stylesheet" href="css/study.css" />
+    <link rel="stylesheet" href="css/project.css" />
+
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="" class="tit">yeonwoo</a>
+        <ul>
+          <a href="#section1">기술</a>
+          <a href="#section2">스터디</a>
+          <a href="#section3">포트폴리오</a>
+        </ul>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="main__inner">
+        <div class="main__tit">
+          <span>긍정</span>
+          <span>열정</span>
+          <span>해내고자 하는 마음</span>
+        </div>
+        <div class="main__sub">
+          <span
+            >직접 코드를 분석하고 결과를 만들어냈을 때의 뿌듯함은 말로 이루지
+            못합니다.</span
+          >
+          <span>마치 뜨개질을 하는 거랄까요?</span>
+          <span>한땀한땀 코드를 넣고 이해하는 그 순간과</span>
+          <span>오류를 한번에 해결할 수 있을 때에는</span>
+          <span>정말 말로 이룰 수 없는 그 황홀, 감격을</span>
+          <span
+            >함께 열정의 땀을 흘리고, 불태우며 멋진 개발자가 되고싶습니다.</span
+          >
+        </div>
+      </div>
+    </section>
+    <section class="skil" id="section1">
+      <article class="skil__continer">
+        <h3>front</h3>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>TypeScripte</span>
+        <span>React</span>
+        <span>Tailwind</span>
+      </article>
+      <article class="skil__continer">
+        <h3>back</h3>
+        <span>Java</span>
+        <span>Java-Spring</span>
+        <span>Java-Spring-Boot</span>
+        <span>MySql</span>
+        <span>Oracle</span>
+      </article>
+      <article class="skil__continer">
+        <h3>server</h3>
+        <span>DOCKER</span>
+        <span>AWS</span>
+      </article>
+    </section>
+    <section class="study" id="section2">
+      <a
+        href="https://level-throat-c67.notion.site/AI-679332dd9f834cf3bab39dff7685599a?pvs=74"
+        class="study__continer"
+      >
+        <article class="study__contents">
+          <div class="study__album">
+            <img src="img/notion.png" alt="" />
+          </div>
+          <span class="study__tit">노션</span>
+        </article>
+      </a>
+      <a href="https://velog.io/@mcsun5/posts" class="study__continer">
+        <article class="study__contents">
+          <div class="study__album">
+            <img src="img/velog.png" alt="" />
+          </div>
+          <span class="study__tit">벨로그</span>
+        </article>
+      </a>
+    </section>
+    <section class="project" id="section3">
+      <article class="project__container">
+        <div class="project__img">
+          <img src="img/pokemon.png" alt="프로젝트 이미지" />
+        </div>
+        <span class="project__title">포켓몬 클론코딩</span>
+        <div class="project__description" style="display: none">
+          <div class="project__tit">
+            <span> 국비 수업으로 포켓몬 클론코딩 진행</span>
+          </div>
+          <div class="project__sub">
+            <span>타임리프로 화면구현과 스프링부트로 백엔드 구현 </span>
+            <span>맡은 부분 : 메인페이지, 애니메이션 화면 구현</span>
+            <span
+              >어려웠던 부분 : 타임리프가 처음이라서 컨트롤러와 클래스를
+              구현하는 부분이 어려웠습니다.</span
+            >
+            <span
+              >또한 타임리프를 하기위해 클래스와 컨트롤러에 대해 제대로 이해하지
+              못해 심각성을 느끼고 있습니다.</span
+            >
+          </div>
+          <button class="project__btn">
+            <a href="https://github.com/dandyPokemon/front">깃 이동</a>
+          </button>
+          <button class="close-description">닫기</button>
+        </div>
+      </article>
+
+      <article class="project__container" id="projectContainer">
+        <div class="project__img">
+          <img src="img/commit.png" alt="프로젝트 이미지" />
+        </div>
+        <span>내 성격과 맞는 IT 직군 찾기</span>
+        <div class="project__description" style="display: none">
+          <div class="project__tit">
+            <span>
+              어떤 개발자가 자신에 적성에 맞을지에 대한 고민으로 시작되었습니다.
+            </span>
+            <span>
+              개발에 대해 잘 모르는 학생들 보다는 조금의 지식을 가지고 있는
+              학생들을 대상으로 주제를 잡고 만들게 되었습니다.</span
+            >
+          </div>
+          <div class="project__sub">
+            <span> 리액트와 파이어베이스를 통해서 작업을 진행 </span>
+            <span>맡은 부분 : 메인페이지</span>
+            <span
+              >어려웠던 부분 : useNavigate 사용과 props 사용이 원할하지 못한
+              부분이 너무 아쉽다</span
+            >
+          </div>
+          <button class="project__btn">
+            <a
+              href="https://melodious-hotteok-244b23.netlify.app"
+              target="_blank"
+              >링크 이동</a
+            >
+          </button>
+          <button class="project__btn">
+            <a href="https://github.com/chae-030/commit_test/tree/main"
+              >깃 이동</a
+            >
+          </button>
+          <button class="close-description">닫기</button>
+        </div>
+      </article>
+      <article class="project__container" id="projectContainer">
+        <div class="project__img">
+          <img src="img/megabox.png" alt="프로젝트 이미지" />
+        </div>
+        <span>메가박스 클론코딩</span>
+        <div class="project__description" style="display: none">
+          <div class="project__tit">
+            <span>메가박스 클론코딩</span>
+          </div>
+          <div class="project__sub">
+            <span> 리액트와 스프링부트로 구현 </span>
+            <span>맡은 부분 : 좌석페이지</span>
+            <span
+              >어려웠던 부분 : 좌석을 최종적으로 선택되었을 때 가격이 같이
+              올라가지 못한 부분과 웹개발의 마지막 프로젝트였지만 스프링부트
+              코드를 치지 못한 점이 아쉽다.</span
+            >
+            <span
+              >이 부분을 보완하기 위해 사이드프로젝트를 만들고 있습니다.</span
+            >
+          </div>
+          <button class="project__btn">
+            <a href="https://github.com/2024-MagaBox/magabox">깃 이동</a>
+          </button>
+          <button class="close-description">닫기</button>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

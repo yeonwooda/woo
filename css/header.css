@@ -1,0 +1,44 @@
+header {
+  width: 99vw;
+  height: 10vh;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex; /* header 내부 요소들을 flex로 배치 */
+  justify-content: center; /* 가운데 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* 왼쪽(yeonwoo)과 오른쪽(ul)을 양쪽 끝에 배치 */
+  align-items: center;
+  width: 100%; /* nav의 너비를 100%로 설정하여 전체 너비 차지 */
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+nav > a {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(215, 215, 88);
+}
+
+nav > ul {
+  display: flex; /* ul 내부의 a 태그들을 가로로 배치 */
+  list-style: none; /* 기본 리스트 스타일 제거 */
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > a {
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none; /* 링크 밑줄 제거 */
+  color: black; /* 기본 글자 색 */
+}
+
+header > ul > a:hover {
+  color: rgb(215, 215, 88); /* hover 시 색상 변경 */
+}
